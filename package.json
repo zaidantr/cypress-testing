@@ -1,0 +1,16 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "This is a self-project that i made for automation website using Selenium. The project is just a simple test case that i found from \"https://automationexercise.com/test_cases\" and i try to automate the cases using Cypress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.1",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "devDependencies": {}
+}
