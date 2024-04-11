@@ -98,7 +98,7 @@ describe('Registration', () => {
         cy.get('[data-qa="login-email"]').type("butokbuton@gmail.com")
         cy.get('[data-qa="login-password"]').type("432zenius")
         cy.get('[data-qa="login-button"]').click()
-        cy.get('.login-form > form > p').should('be.visible')
+        cy.get('.shop-menu > .nav > :nth-child(4) > a').should('be.visible')
     })
 
     it('Logout User', ()=> {
