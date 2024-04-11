@@ -4,7 +4,9 @@
   "description": "This is a self-project that i made for automation website using Selenium. The project is just a simple test case that i found from \"https://automationexercise.com/test_cases\" and i try to automate the cases using Cypress.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "npx cypress open",
+    "cypress:chrome": "npx cypress run --spec cypress/e2e/TestCase1-5.cy.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +14,7 @@
     "cypress": "^12.17.1",
     "cypress-file-upload": "^5.0.8"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
 }
